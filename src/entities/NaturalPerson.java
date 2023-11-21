@@ -1,6 +1,6 @@
 package entities;
 
-public abstract class NaturalPerson extends Person{
+public class NaturalPerson extends Person{
     private Double spentOnHealth;
 
     public NaturalPerson(String name, Double anualIncome, Double spentOnHealth) {
