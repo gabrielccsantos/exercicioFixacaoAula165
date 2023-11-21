@@ -28,6 +28,7 @@ public abstract class NaturalPerson extends Person{
         }
     }
 
+    @Override
     public String toString(){
         return getName() + " - $" + String.format("%.2f", calculateTax());
     }
