@@ -23,7 +23,9 @@ public abstract class NaturalPerson extends Person{
         }else if(getAnualIncome() >= 20.000){
             return (getAnualIncome() * 0.25) - (getSpentOnHealth() * 0.5);
         }
-        return 0.0;
+        else{
+            return 0.0;
+        }
     }
 
     public String toString(){
