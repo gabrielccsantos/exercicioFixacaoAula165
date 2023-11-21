@@ -19,10 +19,10 @@ public class LegalPerson extends Person{
     @Override
     public Double calculateTax(){
         if(numberOfEmployees > 10){
-            return getAnualIncome() * 14;
+            return getAnualIncome() * 0.14;
         }
         else if(numberOfEmployees <= 10){
-            return getAnualIncome() * 16;
+            return getAnualIncome() * 0.16;
         }
         else {
             return 0.0;
